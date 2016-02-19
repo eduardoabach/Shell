@@ -10,7 +10,7 @@ Code information:
 [![Code Coverage Scrutinizer](https://scrutinizer-ci.com/g/koinephp/Shell/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/koinephp/Shell/?branch=master)
 [![Code Climate](https://codeclimate.com/github/koinephp/Shell.png)](https://codeclimate.com/github/koinephp/Shell)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/koinephp/Shell/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/koinephp/Shell/?branch=master)
-[![StyleCI](https://styleci.io/repos/{style_ci_id}/shield)](https://styleci.io/repos/{style_ci_id})
+[![StyleCI](https://styleci.io/repos/52098986/shield)](https://styleci.io/repos/52098986)
 
 Package information:
 
