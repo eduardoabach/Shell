@@ -1,0 +1,30 @@
+{
+    "name": "koine/shell",
+    "description": "Executes shell commands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Jacobus",
+            "email": "marcelo.jacobus@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.4"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "~1.0.0",
+        "phpunit/phpunit": "~4.8.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koine\\Shell\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "bin/post_create_project.sh",
+            "bin/configure_project.sh"
+
+        ]
+    }
+}
