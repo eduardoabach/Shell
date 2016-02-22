@@ -4,8 +4,37 @@ namespace Koine\Shell;
 
 class Output implements OutputInterface
 {
+    /**
+     * @var array
+     */
+    private $data = [];
+
+    public function __construct(array $data)
+    {
+        $this->data = $data;
+    }
+
+    /**
+     * @return array
+     */
     public function toArray()
     {
-        throw new \Exception("Not implemented");
+        return $this->data;
+    }
+
+    /**
+     * @return string
+     */
+    public function toString()
+    {
+        return implode("\n", $this->toArray());
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->toString();
     }
 }

@@ -19,7 +19,7 @@ class OutputTest extends PHPUnit_Framework_TestCase
      */
     public function initialize()
     {
-        $this->output = new Output();
+        $this->output = new Output([]);
     }
 
     /**
